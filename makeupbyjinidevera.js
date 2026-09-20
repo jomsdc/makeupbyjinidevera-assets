@@ -8,7 +8,7 @@ function handleHashFocus() {
 
   if (targetElement) {
 
-	if (element.classList.contains('tab-label')) {
+	if (targetElement.classList.contains('tab-label')) {
 		targetElement.click();
 	} else {
 		//do nothing
