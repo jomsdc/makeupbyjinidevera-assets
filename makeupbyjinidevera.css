@@ -198,3 +198,28 @@ th {
 
 
 /*end: accordion*/
+
+/* start: buttons */
+a.main-button {
+    background-color: #729c0b;
+    color: #ffffff;
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    overflow: hidden;
+    padding: 0 22px;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    border: 2px solid #729c0b;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+a.main-button:hover {
+    background-color: #ffffff;
+    color: #729c0b;
+}
+/* end: buttons */
