@@ -254,7 +254,7 @@ a.link-button {
 .shopee-button {
     display: inline-block;
     background-color: #ee4d2d; /* Shopee Orange */
-    color: #ffffff;
+    color: #ffffff !important;
     padding: 12px 24px;
     text-align: center;
     text-decoration: none;
@@ -273,7 +273,7 @@ a.link-button {
 .tiktok-button {
     display: inline-block;
     background-color: #000000;
-    color: #ffffff;
+    color: #ffffff !important;
     padding: 12px 24px;
     font-family: Arial, sans-serif;
     font-size: 16px;
