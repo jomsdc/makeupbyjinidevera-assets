@@ -132,14 +132,15 @@ th {
       overflow-x: auto!important;
       -webkit-overflow-scrolling: touch
     }
-	
+
+.dcf-w-100 {
+    width: 100%;
+}
 /*end: tables*/
-
 /*start: accordion*/
-
 .css-accordion {
-  max-width: 100%;
-  font-family: system-ui, sans-serif;
+    max-width: 100%;
+    font-family: system-ui, sans-serif;
 }
 
 .accordion-tab {
@@ -223,3 +224,74 @@ a.main-button:hover {
     color: #729c0b;
 }
 /* end: buttons */
+
+/*start: link button*/
+a.link-button {
+    /* Layout & Alignment */
+    display: inline-block;
+    vertical-align: middle;
+    /* Text Styles */
+    color: #729c0b; /* Changed text color to your green brand color */
+    font-weight: bold;
+    text-decoration: underline; /* Standard link underline */
+    /* Reset Button Shapes */
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    height: auto;
+    line-height: normal;
+    /* Smooth transitions */
+    transition: color 0.2s ease;
+}
+
+    a.link-button:hover {
+        color: #557508; /* Darkens slightly on hover for visual feedback */
+        text-decoration: underline;
+    }
+/*end: link button*/
+
+/*start: shopee button*/
+.shopee-button {
+    display: inline-block;
+    background-color: #ee4d2d; /* Shopee Orange */
+    color: #ffffff;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+    .shopee-button:hover {
+        background-color: #d73814; /* Darker Orange on Hover */
+    }
+/*end: shopee button*/
+
+/*start: tiktok button*/
+.tiktok-button {
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px 24px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    background-image: linear-gradient(45deg, #fe2c55 0%, #00f2fe 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+    .tiktok-button:hover {
+        opacity: 0.9;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(254, 44, 85, 0.4);
+    }
+/*end: tiktok button*/
