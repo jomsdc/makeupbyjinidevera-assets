@@ -2,6 +2,10 @@
     font-family: Ubuntu, sans-serif !important;
 }
 
+a {
+    cursor: pointer !important;
+}
+
 /*start: tables*/
 
 :root {
