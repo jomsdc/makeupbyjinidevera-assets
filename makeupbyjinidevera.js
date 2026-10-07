@@ -26,3 +26,11 @@ window.addEventListener('DOMContentLoaded', () => {
     setTimeout(handleHashFocus, 10);
   }
 });
+
+
+// open all accordions by default on page load
+const groupRadios = document.querySelectorAll('input[name="rd"]');
+
+groupRadios.forEach(radio => {
+    radio.checked = true;
+});
