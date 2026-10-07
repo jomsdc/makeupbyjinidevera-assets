@@ -204,7 +204,7 @@ th {
 .main-button {
     display: inline-block;
     background-color: #729c0b;
-    color: #ffffff;
+    color: #ffffff !important;
     /*height: 44px;
     line-height: 44px;*/
     /*overflow: hidden;*/
