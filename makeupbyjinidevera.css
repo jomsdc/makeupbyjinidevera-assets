@@ -203,7 +203,7 @@ th {
 /* start: buttons */
 .main-button {
     display: inline-block;
-    background-color: #729c0b;
+    background-color: #729c0b !important;
     color: #ffffff !important;
     /*height: 44px;
     line-height: 44px;*/
@@ -221,8 +221,8 @@ th {
 }
 
 .main-button:hover {
-    background-color: #ffffff;
-    color: #729c0b;
+    background-color: #ffffff !important;
+    color: #729c0b !important;
 }
 /* end: buttons */
 
