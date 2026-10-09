@@ -296,7 +296,7 @@ th {
     font-weight: bold;
     text-decoration: none;
     border-radius: 6px;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    box-shadow: 1.5px 1.5px 0 #FE2C55, -1.5px -1.5px 0 #25F4EE;
     transition: all 0.2s ease-in-out;
     border: 1px solid transparent;
     margin-right: 10px;
@@ -324,21 +324,68 @@ th {
 
 /* Base small button */
 .social-btn {
-    /*display: inline-block;*/
-    padding: 5px 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 11px;
     font-size: 12px;
     font-weight: 600;
     line-height: 1.4;
-    color: #fff;
+    color: #fff !important;
     text-decoration: none;
     border-radius: 4px;
     transition: filter 0.15s ease, transform 0.15s ease;
+    margin-right: 10px;
 }
 
     .social-btn:hover {
         filter: brightness(1.12);
         transform: translateY(-1px);
     }
+
+/* SVG icons (Simple Icons), tinted white with a CSS mask */
+.icon {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+.icon-fb {
+    -webkit-mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@11/icons/facebook.svg");
+    mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@11/icons/facebook.svg");
+}
+
+.icon-ig {
+    -webkit-mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@11/icons/instagram.svg");
+    mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@11/icons/instagram.svg");
+}
+
+.icon-tiktok {
+    -webkit-mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@11/icons/tiktok.svg");
+    mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@11/icons/tiktok.svg");
+}
+
+.icon-shopee {
+    -webkit-mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@11/icons/shopee.svg");
+    mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@11/icons/shopee.svg");
+}
+
+.icon-youtube {
+    -webkit-mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@11/icons/youtube.svg");
+    mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@11/icons/youtube.svg");
+}
+
+.icon-pinterest {
+    -webkit-mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@11/icons/pinterest.svg");
+    mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@11/icons/pinterest.svg");
+}
 
 /* Brand colors */
 .btn-fb {
