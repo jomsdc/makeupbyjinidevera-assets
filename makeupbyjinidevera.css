@@ -210,7 +210,7 @@ th {
 
 /* start: buttons */
 .main-button {
-    display: inline-block;
+    /*display: inline-block;*/
     background-color: #729c0b !important;
     color: #ffffff !important;
     /*height: 44px;
@@ -324,7 +324,7 @@ th {
 
 /* Base small button */
 .social-btn {
-    display: inline-block;
+    /*display: inline-block;*/
     padding: 5px 12px;
     font-size: 12px;
     font-weight: 600;
