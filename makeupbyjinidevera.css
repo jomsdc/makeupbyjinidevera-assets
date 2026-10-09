@@ -227,7 +227,6 @@ th {
     transition: background-color 0.2s ease, color 0.2s ease;
     border: 1px solid #729c0b;
     margin-right: 10px;
-    line-height: unset;
 }
 
 .main-button:hover {
@@ -239,7 +238,7 @@ th {
 /*start: link button*/
 .link-button {
     /* Layout & Alignment */
-    display: inline-block;
+    /*display: inline-block;*/
     /*    vertical-align: middle;*/
     /* Text Styles */
     color: #729c0b; /* Changed text color to your green brand color */
@@ -255,7 +254,6 @@ th {
     transition: color 0.2s ease;
     margin-right: 10px;
     font-size: 15px;
-    line-height: unset;
 }
 
     .link-button:hover {
@@ -266,7 +264,7 @@ th {
 
 /*start: shopee button*/
 .shopee-button {
-    display: inline-block;
+    /*display: inline-block;*/
     background-color: #ee4d2d; /* Shopee Orange */
     color: #ffffff !important;
     padding: 3px 10px;
@@ -278,7 +276,6 @@ th {
     transition: background-color 0.2s ease;
     border: 1px solid transparent;
     margin-right: 10px;
-    line-height: unset;
 }
 
     .shopee-button:hover {
@@ -288,7 +285,7 @@ th {
 
 /*start: tiktok button*/
 .tiktok-shop-btn {
-    display: inline-block;
+    /*display: inline-block;*/
     align-items: center;
     /*gap: 8px;*/
     background-color: #000000; /* TikTok Black */
@@ -303,7 +300,6 @@ th {
     transition: all 0.2s ease-in-out;
     border: 1px solid transparent;
     margin-right: 10px;
-    line-height: unset;
 }
 
     .tiktok-shop-btn:hover {
