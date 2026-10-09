@@ -216,16 +216,17 @@ th {
     /*height: 44px;
     line-height: 44px;*/
     /*overflow: hidden;*/
-    padding: 12px 20px;
+    padding: 3px 10px;
     /*text-overflow: ellipsis;*/
     /*    vertical-align: middle;*/
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     border-radius: 6px;
     transition: background-color 0.2s ease, color 0.2s ease;
     border: 1px solid #729c0b;
+    margin-right: 10px;
 }
 
 .main-button:hover {
@@ -238,7 +239,7 @@ th {
 .link-button {
     /* Layout & Alignment */
     display: inline-block;
-/*    vertical-align: middle;*/
+    /*    vertical-align: middle;*/
     /* Text Styles */
     color: #729c0b; /* Changed text color to your green brand color */
     font-weight: bold;
@@ -247,10 +248,12 @@ th {
     background-color: transparent;
     border: none;
     padding: 0;
-  /*  height: auto;*/
+    /*  height: auto;*/
     /*line-height: normal;*/
     /* Smooth transitions */
     transition: color 0.2s ease;
+    margin-right: 10px;
+    font-size: 15px;
 }
 
     .link-button:hover {
@@ -264,14 +267,15 @@ th {
     display: inline-block;
     background-color: #ee4d2d; /* Shopee Orange */
     color: #ffffff !important;
-    padding: 12px 20px;
+    padding: 3px 10px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     border-radius: 6px;
     transition: background-color 0.2s ease;
     border: 1px solid transparent;
+    margin-right: 10px;
 }
 
     .shopee-button:hover {
@@ -286,15 +290,16 @@ th {
     /*gap: 8px;*/
     background-color: #000000; /* TikTok Black */
     color: #ffffff !important;
-    padding: 12px 20px;
+    padding: 3px 10px;
     /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;*/
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     text-decoration: none;
     border-radius: 6px;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
     transition: all 0.2s ease-in-out;
     border: 1px solid transparent;
+    margin-right: 10px;
 }
 
     .tiktok-shop-btn:hover {
@@ -309,3 +314,55 @@ th {
     }
 
 /*end: tiktok button*/
+
+/*start: social media buttons*/
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+/* Base small button */
+.social-btn {
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: filter 0.15s ease, transform 0.15s ease;
+}
+
+    .social-btn:hover {
+        filter: brightness(1.12);
+        transform: translateY(-1px);
+    }
+
+/* Brand colors */
+.btn-fb {
+    background: #1877F2;
+}
+
+.btn-ig {
+    background: linear-gradient(45deg, #F09433, #E6683C 25%, #DC2743 50%, #CC2366 75%, #BC1888);
+}
+
+.btn-tiktok {
+    background: #000000;
+    box-shadow: 1.5px 1.5px 0 #FE2C55, -1.5px -1.5px 0 #25F4EE;
+}
+
+.btn-shopee {
+    background: #EE4D2D;
+}
+
+.btn-youtube {
+    background: #FF0000;
+}
+
+.btn-pinterest {
+    background: #E60023;
+}
+/*end: social media buttons*/
