@@ -227,6 +227,7 @@ th {
     transition: background-color 0.2s ease, color 0.2s ease;
     border: 1px solid #729c0b;
     margin-right: 10px;
+    line-height: unset;
 }
 
 .main-button:hover {
@@ -254,6 +255,7 @@ th {
     transition: color 0.2s ease;
     margin-right: 10px;
     font-size: 15px;
+    line-height: unset;
 }
 
     .link-button:hover {
@@ -276,6 +278,7 @@ th {
     transition: background-color 0.2s ease;
     border: 1px solid transparent;
     margin-right: 10px;
+    line-height: unset;
 }
 
     .shopee-button:hover {
@@ -300,6 +303,7 @@ th {
     transition: all 0.2s ease-in-out;
     border: 1px solid transparent;
     margin-right: 10px;
+    line-height: unset;
 }
 
     .tiktok-shop-btn:hover {
