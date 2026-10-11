@@ -296,7 +296,7 @@ th {
     font-weight: bold;
     text-decoration: none;
     border-radius: 6px;
-    box-shadow: 1.5px 1.5px 0 #FE2C55, -1.5px -1.5px 0 #25F4EE;
+    /*box-shadow: 1.5px 1.5px 0 #FE2C55, -1.5px -1.5px 0 #25F4EE;*/
     transition: all 0.2s ease-in-out;
     border: 1px solid transparent;
     margin-right: 10px;
@@ -398,7 +398,7 @@ th {
 
 .btn-tiktok {
     background: #000000;
-    box-shadow: 1.5px 1.5px 0 #FE2C55, -1.5px -1.5px 0 #25F4EE;
+    /*box-shadow: 1.5px 1.5px 0 #FE2C55, -1.5px -1.5px 0 #25F4EE;*/
 }
 
 .btn-shopee {
