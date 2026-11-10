@@ -413,3 +413,7 @@ th {
     background: #E60023;
 }
 /*end: social media buttons*/
+
+html {
+    scroll-padding-top: 100px;
+}
