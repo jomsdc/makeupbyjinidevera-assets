@@ -34,3 +34,10 @@ const groupRadios = document.querySelectorAll('input[name="rd"]');
 groupRadios.forEach(radio => {
     radio.checked = true;
 });
+
+//fixed for mobile display table contents
+const paragraphs = document.querySelectorAll('.dcf-table tbody tr > td > p:not(:has(a))');
+
+paragraphs.forEach(p => {
+	p.insertAdjacentHTML('afterend', '<br/>');
+});

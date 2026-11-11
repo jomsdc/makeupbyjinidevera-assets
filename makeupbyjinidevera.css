@@ -417,3 +417,7 @@ th {
 html {
     scroll-padding-top: 100px;
 }
+
+.dcf-table tbody tr > td > p:not(:has(a)) {
+    display: contents;
+}
