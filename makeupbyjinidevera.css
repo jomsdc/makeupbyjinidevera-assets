@@ -421,3 +421,7 @@ html {
 .dcf-table tbody tr > td > p:not(:has(a)) {
     display: contents;
 }
+
+.dcf-table tbody tr > td > p:not(:has(a)) * {
+    display: contents;
+}
